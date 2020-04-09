@@ -1,0 +1,69 @@
+body{
+    background-color: #f2f2f2;
+}
+.left{
+    background-color: #ffcccc;
+    border-radius: 5px;
+    margin-left: 0.5em;
+    padding: 0.3em;
+}
+.right{
+    background-color: #FF9999;
+    border-radius: 5px;
+    margin-right: 0.5em;
+    padding: 0.3em;
+}
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 2px solid #dddddd;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+.account-heading {
+  font-size: 2.5rem;
+}
+
+.results{
+	overflow: auto;
+	max-height: 480px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  position: relative;
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+}
+th {
+  height: 30px;
+  text-align: center;
+  background-color: #303030;
+  color: lightgray;
+  position: sticky;
+  top: 0;
+}
+td {
+  text-align: center;
+}
+tr{
+    background: lightgray
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #128870;
+    color: black;
+}
