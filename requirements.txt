@@ -31,7 +31,7 @@ phonenumbers==8.11.5
 Pillow==7.0.0
 pluggy==0.13.1
 psycopg2-binary==2.8.4
-py==1.8.1
+py==1.10.0
 py-moneyed==0.8.0
 pyparsing==2.4.6
 pytest==5.4.1
